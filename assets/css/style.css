@@ -7,12 +7,12 @@
 
 @font-face {
   font-family: 'Kusanagi';
-  src        : url(/assets/fonts/Kusanagi.otf);
+  src        : url(../fonts/Kusanagi.otf);
 }
 
 @font-face {
   font-family: 'Minimal';
-  src        : url(/assets/fonts/minimal.otf);
+  src        : url(../fonts/minimal.otf);
 }
 
 :root {
