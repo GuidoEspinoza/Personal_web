@@ -59,4 +59,8 @@
     #whoAmI .rightCol {
         margin-top: 1rem;
     }
+
+    #whoAmI .socialNetworks {
+        gap: 1rem;
+    }
 }
