@@ -1,0 +1,31 @@
+@import url(base.css);
+@import url(footer.css);
+@import url(header.css);
+@import url(projects.css);
+@import url(technologies.css);
+@import url(whoAmI.css);
+
+@font-face {
+  font-family: 'Kusanagi';
+  src        : url(/assets/fonts/Kusanagi.otf);
+}
+
+@font-face {
+  font-family: 'Minimal';
+  src        : url(/assets/fonts/minimal.otf);
+}
+
+:root {
+  --primary-font         : 'Kusanagi';
+  --secondary-font       : 'Minimal';
+  --background-link      : #afafaf;
+  --background-color-body: #242132;
+  --primary-color        : #746cfe;
+  --font-color           : #fffcff;
+}
+
+.light-mode {
+  --background-color-body: #fffcff;
+  --primary-color        : #3f35fe;
+  --font-color           : #242132;
+}

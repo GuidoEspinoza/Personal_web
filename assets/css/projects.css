@@ -1,0 +1,64 @@
+/** Proyectos */
+
+#projects .gifFoca {
+    display        : flex;
+    justify-content: center;
+}
+
+#projects .gifFoca img {
+    width: 800px;
+}
+
+#projects .btnModalTrigger {
+    background-color: var(--background-color-body);
+    color           : var(--font-color);
+    border          : 1px solid var(--primary-color);
+    font-size       : 1.5rem;
+    border-radius   : 0.5rem;
+    font-weight     : bold;
+    letter-spacing  : 4px;
+}
+
+#projects .btnModalTrigger:hover {
+    background-color: var(--background-link);
+    color           : var(--primary-color);
+}
+
+#projects .modal-content {
+    background-color: var(--background-color-body);
+    color           : var(--font-color);
+    border          : 1px solid var(--primary-color);
+}
+
+#projects .modal-header {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+#projects .modal-title {
+    font-weight   : bold;
+    font-size     : 2rem !important;
+    letter-spacing: 4px;
+}
+
+#projects .modal-body img {
+    width: -webkit-fill-available;
+}
+
+#projects .modal-footer {
+    border-top     : 1px solid var(--primary-color);
+    justify-content: center;
+}
+
+#projects .btnModalClose {
+    background-color: var(--background-color-body);
+    color           : var(--font-color);
+    border          : 1px solid var(--primary-color);
+    font-weight     : bold;
+    font-size       : 1.5rem !important;
+    letter-spacing  : 4px;
+}
+
+#projects .btnModalClose:hover {
+    background-color: var(--background-link);
+    color           : var(--primary-color);
+}
