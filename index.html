@@ -4,56 +4,54 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="./assets/img/favicon.png"/>
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
     <title>Guido Espinoza</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <!--* Navbar -->
-    <nav id="header" class="navbar fixed-top navbar-expand-lg">
-        <div class="container align-items-center">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' class='menu-icon'>
+    <nav id="header">
+        <div class="container">
+            <div class="btnNavbarMenu">
+                <button class="btnNavbarMobile" type="button">
+                    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' width="30" height="30"
+                        class='menu-icon'>
                         <path stroke='var(--font-color)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2'
                             d='M4 7h22M4 15h22M4 23h22' />
                     </svg>
-                </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#whoAmI">Quién soy</a>
+                </button>
+            </div>
+            <div class="contentNavbar">
+                <ul class="listNavbar">
+                    <li class="navItem">
+                        <a class="navLink" href="#whoAmI">Quién soy</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Proyectos</a>
+                    <li class="navItem">
+                        <a class="navLink" href="#projects">Proyectos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#technologies">Tecnologías</a>
+                    <li class="navItem">
+                        <a class="navLink" href="#technologies">Tecnologías</a>
                     </li>
-                    <li class="nav-item">
-                        <button class="btn switchTheme" type="buton">Light Mode</button>
+                    <li class="navItem">
+                        <button class="switchTheme" type="buton">Light Mode</button>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!--* Content -->
-    <div id="Content" class="container content">
+    <div id="content" class="container">
         <!--* Who Am I Section -->
-        <section id="whoAmI" class="row whoAmI">
-            <div class="col leftCol">
+        <section id="whoAmI" class="whoAmI">
+            <div class="leftCol">
                 <h1 class="titleSection">¡Hola, <br /> mi nombre es <br /> Guido Espinoza!</h1>
                 <hr>
                 <div class="contentSection">
                     <p> Soy Front End Developer especialista en Vtex</p>
-                    <p>He trabajado en Ecommerce en el área de continuidad operacional llevando el día a día de los sitios según los requerimientos de clientes. Además, trabajé en implementación de proyectos construyendo sitios desde 0 en Vtex y utilizando ReactJs</p>
+                    <p>He trabajado en Ecommerce en el área de continuidad operacional llevando el día a día de los
+                        sitios según los requerimientos de clientes. Además, trabajé en implementación de proyectos
+                        construyendo sitios desde 0 en Vtex y utilizando ReactJs</p>
                     <p>Puedes encontrarme en mis Redes Sociales</p>
                     <div class="socialNetworks">
                         <a href="https://www.linkedin.com/in/guido-espinoza/" target="_blank">LinkedIn</a>
@@ -61,7 +59,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col rightCol">
+            <div class="rightCol">
                 <img class="profileImage img-fluid" id="profileImage" src="./assets/img/profile_image.jpg"
                     alt="profile image">
             </div>
@@ -75,33 +73,6 @@
                 <div class="gifFoca">
                     <img class="img-fluid" src="./assets/img/foca-girando.gif" alt="foca relajada">
                 </div>
-                <br>
-                <div class="btnModal">
-                    <p>También puedes hacer click en este botón, habrá una sorpresa</p>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btnModalTrigger" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">
-                        Botón sorpresa
-                    </button>
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">¡Disfrútalo!</h1>
-                                </div>
-                                <div class="modal-body">
-                                    <img class="img-fluid" src="https://placekitten.com/g/600/600" alt="gato">
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btnModalClose"
-                                        data-bs-dismiss="modal">Cerrar</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
         <!--* Technologies Section -->
@@ -109,77 +80,73 @@
             <h2 class="titleSection">Tecnologías</h2>
             <br>
             <div class="contentSection">
-                <section class="skills">
-                    <div class="skills-flex-container">
-                        <!-- Box HTML -->
-                        <div class="box">
-                            <div class="image">
-                                <img src="./assets/img/html.png" alt="html">
-                            </div>
-                            <div class="title">HTML</div>
+                <div class="skills-flex-container">
+                    <!-- Box HTML -->
+                    <div class="box">
+                        <div class="image">
+                            <img src="./assets/img/html.png" alt="html">
                         </div>
-                        <!-- Box CSS -->
-                        <div class="box">
-                            <div class="image">
-                                <img src="./assets/img/css.png" alt="css">
-                            </div>
-                            <div class="title">CSS</div>
-                        </div>
-                        <!-- Box JS -->
-                        <div class="box">
-                            <div class="image">
-                                <img src="./assets/img/js.png" alt="javascript">
-                            </div>
-                            <div class="title">JavaScript</div>
-                        </div>
-                        <!-- Box ReactJS -->
-                        <div class="box">
-                            <div class="image">
-                                <img src="./assets/img/reactjs.png" alt="reactjs">
-                            </div>
-                            <div class="title">ReactJS</div>
-                        </div>
-                        <!-- Box Vtex -->
-                        <div class="box">
-                            <div class="image">
-                                <img src="./assets/img/vtex.png" alt="vtex">
-                            </div>
-                            <div class="title">Vtex</div>
-                        </div>
-                        <!-- Box Bootstrap -->
-                        <div class="box">
-                            <div class="image">
-                                <img src="./assets/img/bootstrap.png" alt="bootstrap">
-                            </div>
-                            <div class="title">Bootstrap</div>
-                        </div>
-                        <!-- Box Sass -->
-                        <div class="box">
-                            <div class="image">
-                                <img src="./assets/img/sass.png" alt="sass">
-                            </div>
-                            <div class="title">Sass</div>
-                        </div>
-                        <!-- Box Git -->
-                        <div class="box">
-                            <div class="image">
-                                <img src="./assets/img/git.png" alt="git">
-                            </div>
-                            <div class="title">Git</div>
-                        </div>
+                        <div class="title">HTML</div>
                     </div>
-                </section>
+                    <!-- Box CSS -->
+                    <div class="box">
+                        <div class="image">
+                            <img src="./assets/img/css.png" alt="css">
+                        </div>
+                        <div class="title">CSS</div>
+                    </div>
+                    <!-- Box JS -->
+                    <div class="box">
+                        <div class="image">
+                            <img src="./assets/img/js.png" alt="javascript">
+                        </div>
+                        <div class="title">JavaScript</div>
+                    </div>
+                    <!-- Box ReactJS -->
+                    <div class="box">
+                        <div class="image">
+                            <img src="./assets/img/reactjs.png" alt="reactjs">
+                        </div>
+                        <div class="title">ReactJS</div>
+                    </div>
+                    <!-- Box Vtex -->
+                    <div class="box">
+                        <div class="image">
+                            <img src="./assets/img/vtex.png" alt="vtex">
+                        </div>
+                        <div class="title">Vtex</div>
+                    </div>
+                    <!-- Box Bootstrap -->
+                    <div class="box">
+                        <div class="image">
+                            <img src="./assets/img/bootstrap.png" alt="bootstrap">
+                        </div>
+                        <div class="title">Bootstrap</div>
+                    </div>
+                    <!-- Box Sass -->
+                    <div class="box">
+                        <div class="image">
+                            <img src="./assets/img/sass.png" alt="sass">
+                        </div>
+                        <div class="title">Sass</div>
+                    </div>
+                    <!-- Box Git -->
+                    <div class="box">
+                        <div class="image">
+                            <img src="./assets/img/git.png" alt="git">
+                        </div>
+                        <div class="title">Git</div>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
     <!--* Footer -->
-    <footer id="footer" class="container-fluid">
-        <p>Todos los derechos reservados. Guido Espinoza. <span class="footerYear">2023</span></p>
+    <footer id="footer">
+        <div class="container">
+            <p>Todos los derechos reservados. Guido Espinoza. <span class="footerYear">2023</span></p>
+        </div>
     </footer>
-    <!--* Script Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
     <!--* Script Main.js -->
     <script type="module" src="./assets/js/main.js"></script>
 </body>

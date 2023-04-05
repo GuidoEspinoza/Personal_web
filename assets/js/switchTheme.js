@@ -1,4 +1,4 @@
-//* Cambio entre Modo Oscuro y Modo Claro
+//* Función para el cambio entre Modo Oscuro y Modo Claro
 
 export function switchThemeBtn() {
     const switchTheme = document.querySelector('.switchTheme');

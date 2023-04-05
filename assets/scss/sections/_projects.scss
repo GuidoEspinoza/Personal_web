@@ -1,0 +1,28 @@
+#projects {
+    .titleSection {
+        font-family: var(--primary-font);
+        font-size  : 2rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .contentSection {
+        p {
+            font-family   : var(--secondary-font);
+            font-size     : 1.5rem;
+            font-weight   : bold;
+            letter-spacing: 1.5px;
+            line-height   : 2rem;
+        }
+    }
+
+    .gifFoca {
+        display        : flex;
+        justify-content: center;
+
+        img {
+            max-width: 1000px;
+            width    : 100%;
+        }
+    }
+}

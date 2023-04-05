@@ -1,4 +1,4 @@
-//* Animación Profile Image
+//* Función para la animación de profileImage
 
 export function profileImage() {
     if (window.innerWidth > 768) {

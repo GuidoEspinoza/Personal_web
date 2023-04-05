@@ -1,0 +1,14 @@
+:root {
+    --primary-font         : 'Kusanagi';
+    --secondary-font       : 'Minimal';
+    --background-link      : #afafaf;
+    --background-color-body: #242132;
+    --primary-color        : #746cfe;
+    --font-color           : #fffcff;
+}
+
+.light-mode {
+    --background-color-body: #fffcff;
+    --primary-color        : #3f35fe;
+    --font-color           : #242132;
+}

@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background-color-body);
+    color           : var(--font-color);
+    transition      : background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.container {
+    max-width: 1320px;
+    width    : 100%;
+    margin   : 0 auto;
+}
+
+#content {
+    section {
+        min-height    : 100vh;
+        padding-top   : 5rem;
+        padding-bottom: 5rem;
+    }
+
+    @media (max-width: 40em) {
+        section {
+            padding-bottom: 0;
+        }
+    }
+}

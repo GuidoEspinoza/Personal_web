@@ -1,0 +1,13 @@
+// Importar variables
+@import "abstracts/typography";
+@import "abstracts/variables";
+
+// Importar estilos base
+@import "base/reset";
+
+// Importar estilos de secciones
+@import "sections/header";
+@import "sections/whoAmI";
+@import "sections/projects";
+@import "sections/technologies";
+@import "sections/footer";
